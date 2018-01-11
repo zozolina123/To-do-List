@@ -1,0 +1,77 @@
+body {
+	background: linear-gradient(to right, #0080ff, #fff);
+	font-family: 'Roboto', sans-serif;
+	font-size: 87.5%;
+}
+
+.container {
+	max-width: 400px;
+	margin: 5% auto;
+	background-color: #eeefff;
+}
+
+header {
+	color: #fff;
+	background-color: #1148a0;
+}
+
+header h1{
+	display:inline-block;
+	font-size: 1.8rem;
+	padding: 0 4%;
+}
+
+header .plus{
+	font-size: 1.5rem;
+	text-align: right;
+	margin-left:40%;
+	padding:0;
+}
+
+header .plus:hover{
+	color:#444;
+}
+
+input {
+	color: #aaa;
+	width: 100%;
+	height: 2.9rem;
+	outline: none;
+	border-style:none;
+	text-align: center;
+	font-size: 1.8rem;
+	background-color: #eeefff;
+}
+
+.todo {
+	padding: 3%;
+}
+
+.todo p {
+	width:80%;
+	display: inline-block;
+	color: #555;
+	margin: 0 2%;
+	font-size: 1.2rem;
+}
+
+.todo:nth-child(2n+1) {
+	background-color: #fff;
+}
+
+.todo:nth-child(2n) {
+	background-color: #eeefff;
+}
+
+.todo p:hover {
+	text-decoration: line-through;
+}
+
+.todo h5 {
+	color : red;
+	font-size: 1rem;
+	width:0%;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+}
